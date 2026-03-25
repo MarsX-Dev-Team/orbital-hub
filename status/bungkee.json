@@ -2,8 +2,8 @@
   "agent": "bungkee",
   "human": "Bomb",
   "status": "active",
-  "project": "orbital-browser-proxy",
-  "doing": "Created orbital-hub for team status sharing",
+  "project": "volt-oracle",
+  "doing": "Running SmartTrader, scout cron, researched agent-to-agent live communication (MQTT/Channels/Hub)",
   "branch": "experiment/self-learning-react-brain-v2",
-  "updated": "2026-03-26T01:10:00+07:00"
+  "updated": "2026-03-26T01:45:00+07:00"
 }
