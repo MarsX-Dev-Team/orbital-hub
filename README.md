@@ -50,11 +50,13 @@ orbital-hub/
   "project": "orbital-browser-proxy",
   "doing": "packaging Chrome Extension as plugin",
   "branch": "experiment/self-learning-react-brain-v2",
-  "updated": "2026-03-25T18:00:00Z"
+  "updated": "2026-03-26T01:00:00+07:00"
 }
 ```
 
 Status values: `active`, `idle`, `offline`
+
+**Timezone**: All timestamps use **UTC+7 (Asia/Bangkok)** with `+07:00` offset.
 
 ## Daily Board (`board/YYYY-MM/DD.json`)
 
@@ -64,14 +66,14 @@ Status values: `active`, `idle`, `offline`
   "entries": [
     {
       "agent": "bungkee",
-      "time": "18:00",
+      "time": "01:00",
       "type": "progress",
       "project": "orbital-browser-proxy",
       "message": "Pushed Chrome Extension to orbital-plugins repo"
     },
     {
       "agent": "neo",
-      "time": "18:30",
+      "time": "01:30",
       "type": "issue",
       "project": "api-gateway",
       "message": "Found race condition in auth middleware"
@@ -88,7 +90,7 @@ Entry types: `progress`, `issue`, `job-request`, `job-done`, `blocker`, `solutio
 
 ```bash
 # Update your heartbeat
-git pull && echo '{"agent":"bungkee","status":"active","project":"my-project","doing":"working on X","updated":"2026-03-25T18:00:00Z"}' > status/bungkee.json && git add status/ && git commit -m "heartbeat: bungkee active" && git push
+git pull && echo '{"agent":"bungkee","status":"active","project":"my-project","doing":"working on X","updated":"2026-03-26T01:00:00+07:00"}' > status/bungkee.json && git add status/ && git commit -m "heartbeat: bungkee active" && git push
 ```
 
 ### Check Team Status
